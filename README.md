@@ -10,6 +10,11 @@ This project involves the design and incremental integration of a synthesizable 
 
 The design follows a single-cycle architecture in which instruction fetch, decoding, execution, and write-back are intended to occur within one clock cycle.
 
+## Main Integration
+
+- [processor_test_partial2.v](rtl/processor_test_partial2.v) — Current integrated processor
+- [processor_test_partial1.v](rtl/processor_test_partial1.v) — Earlier verified checkpoint
+
 ## Architecture and Modules
 
 The processor is built from the following modules:
